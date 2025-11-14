@@ -4,7 +4,6 @@ import NewsCard from "./NewsCard";
 
 type NewsItem = {
   title: string;
-  description: string;
   url: string;
   urlToImage: string;
 };

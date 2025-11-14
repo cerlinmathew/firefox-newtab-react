@@ -24,7 +24,7 @@ export default function Sidesheet({ setBackground }: SideSheetProps) {
 
   return (
     <Sheet>
-      <SheetTrigger className="text-white bg-gray-800 px-4 py-2 rounded-lg hover:bg-gray-600 flex gap-2">
+      <SheetTrigger className="text-white bg-gray-700 cursor-pointer px-4 py-2 rounded-lg hover:bg-gray-600 flex gap-2">
          <Edit className="w-5 h-5" />Customise
       </SheetTrigger>
 
@@ -33,7 +33,7 @@ export default function Sidesheet({ setBackground }: SideSheetProps) {
           <SheetTitle className="text-lg font-semibold">Wallpapers</SheetTitle>
         </SheetHeader>
 
-        {/* WALLPAPER GRID */}
+        {/* Wallpaper grid */}
         <div className="grid grid-cols-3 gap-2 mx-6">
           {wallpapers.map((img, index) => (
             <div
