@@ -34,7 +34,7 @@ export default function Home() {
 
     //wallpaper update
     <div
-      className="bg-cover bg-fixed "
+      className="bg-cover bg-fixed min-h-screen"
       style={{ backgroundImage: `url(${background})` }}
     >
       {/* firefox icon */}
